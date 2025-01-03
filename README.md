@@ -22,6 +22,11 @@ Here are some key screenshots of the chatbot interface:
   
   ![Home Screen](./screenshots/home.png)
 
+  - **Setup Instructions**: A visual representation of the setup process for both frontend and backend, helping users get started quickly.
+  
+  ![Setup Instructions](./screenshots/setup.png)
+
+
 - **Chat Interface**: The core feature of the app, where users interact with the chatbot, discussing their mental state and emotions.
   
   ![Chat Interface](./screenshots/chat.png)
@@ -29,10 +34,6 @@ Here are some key screenshots of the chatbot interface:
 - **Intro Screen**: The introduction screen that explains the purpose of the chatbot and what users can expect.
   
   ![Intro Screen](./screenshots/intro.png)
-
-- **Setup Instructions**: A visual representation of the setup process for both frontend and backend, helping users get started quickly.
-  
-  ![Setup Instructions](./screenshots/setup.png)
 
 ### Project Structure
 
