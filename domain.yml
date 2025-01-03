@@ -1,0 +1,48 @@
+%YAML 1.1
+---
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - inform
+
+entities:
+  - activity
+  - number
+  - value
+
+slots:
+  act1_align:
+    type: bool
+    mappings:
+      - type: from_entity
+        entity: act1_align
+  act1_cont:
+    type: bool
+    mappings:
+      - type: from_entity
+        entity: act1_cont
+  act1_time:
+    type: float
+    max_value: 168.0
+    min_value: 0.0
+    mappings:
+      - type: from_entity
+        entity: act1_time
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_ask_activity
+  - action_set_activity
+
+templates:
+  utter_greet:
+    - text: "Hey! How can I help you today?"
+  utter_goodbye:
+    - text: "Goodbye! Have a great day."
+  utter_ask_activity:
+    - text: "What activity would you like to talk about?"

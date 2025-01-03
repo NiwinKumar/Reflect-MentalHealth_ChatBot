@@ -1,0 +1,483 @@
+nlu:
+  - intent: affirm
+    examples: |
+      - yes
+      - indeed
+      - of course
+      - that sounds good
+      - yes, that is correct
+      - that is correct
+      - correct
+      - yup
+      - that't correct
+      - that's right
+      - that is correct
+      - yea
+      - that's right
+      - ya
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yup
+      - yes
+      - yes
+      - ya
+      - yes
+      - ya
+      - yes
+      - yea
+      - ya
+      - yes
+      - yea
+      - yes
+      - ya
+      - yes
+      - yes
+      - yes
+      - ya
+      - ya
+      - ya
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - ya
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - ya
+      - yes
+      - yes
+      - yes
+      - yea
+      - ys
+      - yes
+      - yes
+      - ye
+      - yes
+      - yes
+      - yes
+
+  - intent: bot_challenge
+    examples: | 
+     - are you a bot?
+     - are you a human?
+     - am I talking to a bot?
+     - am I talking to a human?
+
+  - intent: choose_value
+    examples: | 
+     - "[achievement](value) and [family](value)"
+      "[family](value) and [fun](value)"
+     - "[fun](value) and [health](value)"
+     - "[health](value) and [mindfulness](value)"
+     - "[mindfulness](value) and [independence](value)"
+     - "[independence](value) and [purpose](value)"
+     - "[purpose](value) and [self-esteem](value)"
+     - "[self-esteem](value) and [wealth](value)"
+     - "[wealth](value) and [friendship](value)"
+     - "[friendship](value) and [morality](value)"
+     - "[morality](value) and [romance](value)"
+     - "[romance](value) and [responsibility](value)"
+     - "[responsibility](value) and [knowledge](value)"
+     - "[knowledge](value) and [acceptance](value)"
+     - "[acceptance](value) and [achievement](value)"
+     - "[friendship](value) and [family](value)"
+     - "[achievement](value)"
+     - "[family](value)"
+     - "[fun](value)"
+     - "[health](value)"
+     - "[mindfulness](value)"
+     - "[independence](value)"
+     - "[purpose](value)"
+     - "[self-esteem](value)"
+     - "[wealth](value)"
+     - "[friendship](value)"
+     - "[morality](value)"
+     - "[romance](value)"
+     - "[responsibility](value)"
+     - "[knowledge](value)"
+     - "[acceptance](value)"
+     - "[Achievement](value:achievement)"
+     - "[Family](value:family)"
+     - "[Fun](value:fun)"
+     - "[Health](value:health)"
+     - "[Mindfulness](value:mindfulness)"
+     - "[Independence](value:independence)"
+     - "[Purpose](value:purpose)"
+     - "[Self-esteem](value:self-esteem)"
+     - "[Wealth](value:wealth)"
+     - "[Friendship](value:friendship)"
+     - "[Morality](value:morality)"
+     - "[Romance](value:romance)"
+     - "[Responsibility](value:responsibility)"
+     - "[Knowledge](value:knowledge)"
+     - "[Acceptance](value:acceptance)"
+     - "[friendship](value) and [family](value)"
+     - "[friendship](value)"
+     - "[family](value) and [friendship](value)"
+     - "[friendship](value)"
+     - "[friendship](value)"
+     - "[health](value)"
+     - "[frienship](value) and [family](value)"
+     - "[family](value)"
+     - "[family](value)"
+     - "I think [health](value) is important to me"
+     - "[family](value) and [friendship](value)"
+     - "[family](value)"
+     - "[freindship](value)"
+     - "[friendship](value)"
+     - "[health](value) and [wealth](value)"
+     - "[mindfulness](value)"
+     - "[romance](value)"
+     - "[family](value)"
+     - "[health](value)"
+     - "[family](value)"
+     - "[health](value)"
+     - "[wealth](value)"
+     - "[health](value)"
+     - "[health](value)"
+     - "[health](value)"
+
+
+  - intent: deny
+    examples: |
+     - no
+     - never
+     - I don't think so
+     - don't like that
+     - no way
+     - not really
+     - actually, I changed my mind
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+     - no
+
+
+  - intent: describe_hour
+    examples: |
+     - about [3](number) hours per week
+     - about [2](number) hours
+     - [1.5](number) hours
+     - [-16](number) hours
+     - about [7](number) hours
+     - [2](number) hours
+     - about [2](number) hours
+     - [200](number) hours
+     - about [16](number) hours
+     - about [5](number) hours
+     - about [6](number) hours
+     - i think it's about [15](number) hours
+     - [6](number) hours
+     - about [10](number) hours
+     - about  [3](number) hours
+     - [3](number) hours
+     - [3](number) hours
+     - about [5](number) hours per week
+     - [10](number) hours
+     - [8](number) hours
+     - [8](number) hours
+     - about [12](number) hours
+     - about [10](number) hours per week
+     - [20](number) hours
+     - more than [10](number) hours
+     - about [10](number) hours
+     - [20](number) hours
+     - [20.5](number) hours
+     - about [10](number) hours
+     - about [5](number) hours
+     - about [2](number) hours
+     - [8](number) hours a week
+     - about [5](number) hours
+     - [5](number) hours
+     - [2](number) hours
+     - [10](number) hours
+     - [16](number) hours
+     - [10](number) hours
+     - [3](number) hours
+     - [10](number) hours
+     - [10](number) hours
+     - [10](number) hours
+     - [2](number) hours
+     - [8](number) hours
+     - [20](number) hours
+     - [3](number) hours
+     - [2](number) hours
+     - [8](number) hours
+     - [5](number) hours
+     - [8](number) hours
+     - [5](number) hours
+
+  - intent: explain_chatbot_purpose
+    examples: |
+     - what can you help me do?
+     - what's your purpose?
+     - what do you do?
+     - what are you created for?
+     - why are you created?
+     - what does the reflection chatbot do?
+     - hey, what do you do?
+
+  - intent: explain_value
+    examples: |
+     - can you explain the meaning of the values?
+     - can you explain what [achievement](value) means?
+     - please explain [family](value) for me
+     - could you elaborate on [fun](value)
+     - I don't understand the meaning of [health](value), do you have an explanation?
+     - what is [mindfulness](value)?
+     - what's [independence](value)?
+     - what do you mean by [purpose](value)?
+     - can you explain [self-esteem](value)?
+     - what's the core idea of [wealth](value)?
+     - explain [friendship](value)?
+     - explain [morality](value)
+     - explain [romance](value)
+     - explain [responsibility](value)
+     - explain [knowledge](value)
+     - explain [acceptance](value)
+     - can you explain the values?
+     - can you explain [fun](value) and [achievement](value)?
+     - can you also explain [family](value)?
+     - define [acceptance](value)
+     - explain [family](value), [friendship](value), [wealth](value) and [health](value)
+     - explain [acceptance](value), [family](value), [fun](value), [morality](value), and [knowledge](value)
+     - I don't understand [health](value)
+     - could you tell me what [fun](value) is
+     - can you explaing [family](value) and [health](value)
+
+  - intent: goodbye
+    examples: |
+     - bye
+     - goodbye
+     - see you around
+     - see you later
+
+  - intent: greet
+    examples: |
+     - hey
+     - hello
+     - hi
+     - good morning
+     - good evening
+     - hey there
+
+
+  - intent: inform
+    examples: |
+     - because I enjoy reading
+     - because I like it
+     - I think it helps me improve my artistic skills
+     - because it helps me relax
+     - reading clears my mind, it helps me be more aware of my life
+     - because it provides entertainment for me
+     - I enjoy reading
+     - Because we got to improve our relationship while maintaining a good fitness level
+     - exercising makes my body strong, less sickness
+     - it helps me build [endurance](value) and cardio
+     - because it is good for my [health](value)
+     - because [health](value) is also important to me, and [swimming](activity) helps improve my health
+     - because I want to maintain a good relationship with them
+     - because [friendship](value) is also important to me
+     - because I can make healthy food for myself
+     - because it takes so much of my time
+     - because I have to
+     - because I am still in school
+     - because it is [fun](value)
+     - it increases my stamina and [strength](value)
+     - because it is addicting
+     - exercising helps me focus, it also pumps blood into my brain, activating it
+     - because I am addicted to it
+     - to be entertained and get recent news
+     - because without it, I wouldn't learn about the news
+     - because I exercise with my partner
+     - because I enjoy [playing video games](activity)
+     - because reading is a nice activity to do
+     - because it makes me stronger and healthier
+     - because it is important to my [health](value)
+     - because it is [fun](value)
+     - because I paint with my family
+     - because it helps me build stamina and [endurance](value)
+     - to watch the news and get information about the current issues
+     - because watching the news is important
+     - because it is a [fun](value) [activity](value)
+     - because I enjoy singing
+     - it helps with improving our relationship
+     - because it is [fun](value)
+     - because I need to get stronger
+     - because it improves my [health](value)
+     - because it is a good [activity](value)
+     - to watch news
+     - because I want to know the current news
+     - because I am in school and I need to get good grades
+     - because it helps me to get a good job in the future
+     - because I want to get stronger
+     - because I also value [health](value)
+     - because it is a nice activity to do
+     - because I want to get better at painting
+     - because it calms my mind
+     - because I will need a job first to start earning money
+     - because there are good films to watch
+     - because I paid for the membership
+     - because it's [fun](value)
+     - it builds my strength
+     - it helps me to build cardio
+     - it builds stamina and cardio
+     - because I enjoy playing the piano
+     - because playing the piano makes me feel calm
+     - because it is [fun](value)
+     - I think it will help me build my strength
+     - it builds cardio
+     - it helps me get the nutrients
+     - because I enjoy spending time with them
+     - because they are important to me, and I want to maintain our relationship
+     - I should stop eating junk food to get more fit.
+     - I don’t want to continue playing the piano since it takes too much of my time.
+     - I’m getting tired of it.
+     - To keep in shape
+     - Idk, I’m tired all the time.
+     - I just like painting.
+     - I hate jogging
+     - I go rock climbing with friends
+     - It’s too expensive
+     - I won’t be in school anymore
+     - It’s too unhealthy
+     - I just don’t like it.
+     - I need to quit taking drugs.
+
+  - intent: mood_great
+    examples: |
+     - perfect
+     - very good
+     - great
+     - amazing
+     - wonderful
+     - I am feeling very good
+     - I am great
+     - I'm good
+
+  - intent: mood_unhappy
+    examples: |
+     - sad
+     - very sad
+     - unhappy
+     - bad
+     - very bad
+     - awful
+     - terrible
+     - not very good
+     - extremely sad
+     - so sad
+
+  - intent: number_input
+    examples: |
+     - [0](number)
+     - [1](number)
+     - [2](number)
+     - [3](number)
+     - [4](number)
+     - [5](number)
+     - [6](number)
+     - [7](number)
+     - [8](number)
+     - [9](number)
+     - [10](number)
+     - [11](number)
+     - [-1](number)
+     - [20](number)
+     - about [5](number)
+     - [160](number)
+     - about [5](number) hours
+     - [0](number)
+     - [0](number)
+     - [3](number)
+     - [0](number)
+     - [10](number) hours
+     - [2](number)
+     - [0](number)
+     - [0](number)
+
+  - intent: sounds_boring
+    examples: |
+     - sounds lame
+     - sounds boring
+     - boring
+
+  - intent: sounds_cool
+    examples: |
+     - that sounds cool!
+     - sounds interesting!
+     - cool
+     - interesting
+     - that sounds fun
+
+  - intent: stop_convo
+    examples: |
+     - I want to stop the conversation
+     - I want to leave
+     - can I stop the conversation?
+      - stop
+     - i don't want to continue anymore
+     - i want to stop
+     - i want to stop
+     - i want to stop
+     - stop
