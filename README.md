@@ -14,6 +14,26 @@ The **Mental Health Reflection Chatbot** is powered by **Rasa**—a robust frame
 
 The chatbot asks users reflective questions about their mental health and provides prompts to help users identify their thoughts and feelings. By using existing psychological research data, the chatbot is trained to support users in reflecting on their mental health in a scientifically grounded manner.
 
+### Screenshots
+
+Here are some key screenshots of the chatbot interface:
+
+- **Home Screen**: This is the landing page where users can start their mental health reflection journey.
+  
+  ![Home Screen](./screenshots/home.png)
+
+- **Chat Interface**: The core feature of the app, where users interact with the chatbot, discussing their mental state and emotions.
+  
+  ![Chat Interface](./screenshots/chat.png)
+
+- **Intro Screen**: The introduction screen that explains the purpose of the chatbot and what users can expect.
+  
+  ![Intro Screen](./screenshots/intro.png)
+
+- **Setup Instructions**: A visual representation of the setup process for both frontend and backend, helping users get started quickly.
+  
+  ![Setup Instructions](./screenshots/setup.png)
+
 ### Project Structure
 
 - **`reflection-chatbot-ui/`**: Contains the React frontend code for user interaction.
